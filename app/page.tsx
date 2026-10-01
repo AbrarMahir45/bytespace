@@ -3,6 +3,7 @@ import Hero from "@/components/Hero";
 import LogoPartner from "@/components/LogoPartner";
 import DiscoverSection from "@/components/DiscoverSection";
 import CourseSection from "@/components/CourseSection";
+import LearningPathsSection from "@/components/LearningPathsSection";
 
 const partnerLogos = [
   {
@@ -100,6 +101,8 @@ export default function Home() {
       <DiscoverSection categories={categories} />
 
       <CourseSection />
+
+      <LearningPathsSection />
     </main>
   );
 }
