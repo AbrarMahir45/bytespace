@@ -14,9 +14,6 @@ export default function DiscoverSection({
 }: DiscoverSectionProps) {
   return (
     <section className="w-full bg-white">
-      {/* =========================================
-          Heading + Description
-      ========================================= */}
 
       <div className="mx-auto flex w-[917px] flex-col items-center pt-[72px]">
         {/* Heading */}
@@ -46,10 +43,6 @@ export default function DiscoverSection({
           and life.
         </p>
       </div>
-
-      {/* =========================================
-          Categories
-      ========================================= */}
 
       <div
         className="mx-auto mt-[20px] flex w-[1000px] flex-wrap items-center justify-center gap-x-[8px] gap-y-[12px]"

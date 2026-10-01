@@ -6,9 +6,6 @@ const courses = [
     title: "Learn Figma from Basic",
     creator: "purepearl studio",
     rating: "4.5",
-    lessons: "17 Lessons",
-    duration: "2 hours 16 mins",
-    comments: "59 Comments",
     price: "25",
   },
   {
@@ -16,9 +13,6 @@ const courses = [
     title: "Build Digital Asset",
     creator: "purepearl studio",
     rating: "4.5",
-    lessons: "17 Lessons",
-    duration: "2 hours 16 mins",
-    comments: "59 Comments",
     price: "25",
   },
   {
@@ -26,9 +20,6 @@ const courses = [
     title: "the Power of Big Data",
     creator: "purepearl studio",
     rating: "4.5",
-    lessons: "17 Lessons",
-    duration: "2 hours 16 mins",
-    comments: "59 Comments",
     price: "25",
   },
   {
@@ -36,9 +27,6 @@ const courses = [
     title: "Balancing Productivity and Focus",
     creator: "purepearl studio",
     rating: "4.5",
-    lessons: "17 Lessons",
-    duration: "2 hours 16 mins",
-    comments: "59 Comments",
     price: "25",
   },
   {
@@ -46,9 +34,6 @@ const courses = [
     title: "Mastering Money Management",
     creator: "purepearl studio",
     rating: "4.5",
-    lessons: "17 Lessons",
-    duration: "2 hours 16 mins",
-    comments: "59 Comments",
     price: "25",
   },
   {
@@ -56,9 +41,6 @@ const courses = [
     title: "From Idea to Startup Success",
     creator: "purepearl studio",
     rating: "4.5",
-    lessons: "17 Lessons",
-    duration: "2 hours 16 mins",
-    comments: "59 Comments",
     price: "25",
   },
 ];

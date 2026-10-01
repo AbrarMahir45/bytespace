@@ -4,6 +4,7 @@ import LogoPartner from "@/components/LogoPartner";
 import DiscoverSection from "@/components/DiscoverSection";
 import CourseSection from "@/components/CourseSection";
 import LearningPathsSection from "@/components/LearningPathsSection";
+import ProfessionalGrowthSection from "@/components/ProfessionalGrowthSection";
 
 const partnerLogos = [
   {
@@ -103,6 +104,8 @@ export default function Home() {
       <CourseSection />
 
       <LearningPathsSection />
+
+      <ProfessionalGrowthSection />
     </main>
   );
 }

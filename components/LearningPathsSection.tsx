@@ -29,29 +29,44 @@ const learningPaths = [
 
 export default function LearningPathsSection() {
   return (
-    <section className="w-full bg-white">
-      {/* Text */}
+    <section className="w-full bg-white pb-[72px]">
+
+      {/* =================================
+          TEXT
+      ================================== */}
+
       <div className="mx-auto flex w-[917px] flex-col items-center pt-[72px]">
+
         <h2
           className="w-[792px] text-center text-[36px] font-semibold leading-[120%] text-[#040819]"
-          style={{ fontFamily: "Poppins, Arial, sans-serif" }}
+          style={{
+            fontFamily: "Poppins, Arial, sans-serif",
+          }}
         >
           Explore Diverse Learning Paths at Bytespace
         </h2>
 
         <p
           className="mt-[16px] w-[917px] text-center text-[18px] leading-[160%] text-[#9A9CA2]"
-          style={{ fontFamily: '"Satoshi", Arial, sans-serif' }}
+          style={{
+            fontFamily: '"Satoshi", Arial, sans-serif',
+          }}
         >
           At Bytespace, we believe in empowering individuals through
           knowledge. Our diverse range of courses spans various fields,
           ensuring there's something for everyone. Unleash your potential
           and explore our carefully curated categories.
         </p>
+
       </div>
 
-      {/* Learning path cards */}
+
+      {/* =================================
+          LEARNING PATH CARDS
+      ================================== */}
+
       <div className="mx-auto mt-[40px] flex w-[1202px] gap-[40px]">
+
         {learningPaths.map((path) => (
           <LearningPathCard
             key={path.label}
@@ -59,7 +74,9 @@ export default function LearningPathsSection() {
             image={path.image}
           />
         ))}
+
       </div>
+
     </section>
   );
 }
